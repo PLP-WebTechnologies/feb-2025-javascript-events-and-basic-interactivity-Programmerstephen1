@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event Handling & Interactive Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Interactive Webpage with JavaScript</h1>
+
+  <!-- Button with Click and Hover Event -->
+  <button id="clickButton">Click me to change text and color</button>
+
+  <!-- Secret Action for Double-Click or Long Press -->
+  <div id="secretArea">Double-click or long press me for a secret action!</div>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img class="gallery-item" src="image1.jpg" alt="Image 1">
+    <img class="gallery-item" src="image2.jpg" alt="Image 2">
+    <img class="gallery-item" src="image3.jpg" alt="Image 3">
+  </div>
+
+  <!-- Tabs/Accordion -->
+  <div class="tabs">
+    <button class="tab-button" data-tab="tab1">Tab 1</button>
+    <button class="tab-button" data-tab="tab2">Tab 2</button>
+    <button class="tab-button" data-tab="tab3">Tab 3</button>
+
+    <div id="tab1" class="tab-content">Content for Tab 1</div>
+    <div id="tab2" class="tab-content">Content for Tab 2</div>
+    <div id="tab3" class="tab-content">Content for Tab 3</div>
+  </div>
+
+  <!-- Form with Validation -->
+  <form id="validationForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Submit</button>
+    <p id="errorMessage" class="error-message"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
